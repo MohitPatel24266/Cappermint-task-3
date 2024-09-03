@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("bg_image.jpg");
+}
+
+#chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: whitesmoke
+}
+
+#messages {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    height: 300px;
+    overflow-y: scroll;
+    color: black;
+}
+
+#chat-form {
+    display: flex;
+   
+}
+
+#chat-form input, #chat-form button {
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+  
+}
+
+#chat-form input {
+    flex: 1;
+}
